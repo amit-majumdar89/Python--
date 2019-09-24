@@ -51,3 +51,45 @@ print(g)
 print('del deletes the defination hence will throw an exception')
 del g
 # print(g)
+
+#
+# Variable Types
+#
+
+#
+# Numbers
+#
+
+print('******** Numbers ********')
+
+floatVar = 3.16
+print(floatVar)
+
+intVar = 3
+print(intVar)
+
+print('Python supports two types of numbers - integers and floating point numbers. (It also supports complex numbers)')
+
+#
+# String (Strings are defined either with a single quote or a double quotes.)
+#
+
+print('Strings are defined either with a single quote or a double quotes.')
+
+stringVarWithDoubleQuotes = "stringVarWithDoubleQuotes"
+stringVarWithSingleQuotes = 'stringVarWithSingleQuotes'
+
+print(stringVarWithSingleQuotes)
+print(stringVarWithDoubleQuotes)
+
+print('The difference between the two is that using double quotes makes it easy to include apostrophes (whereas these would terminate the string if using single quotes)')
+
+print("Don't worry about apostrophes")
+
+#
+# Assignments can be done on more than one variable "simultaneously" on the same line like this
+#
+
+a1 , b1 = 4, 5
+print(a1)
+print(b1)
